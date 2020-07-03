@@ -14,7 +14,5 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
-cd /lede/package/lean/
-git clone https://github.com/jerrykuku/node-request.git
-git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git
-cd /lede
+#git clone https://github.com/jerrykuku/node-request.git package/lean/
+#git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/
