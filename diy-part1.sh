@@ -19,3 +19,6 @@ sed -i '$a src-git jingdong https://github.com/jerrykuku/openwrt-package' feeds.
 #git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 #git clone https://github.com/jerrykuku/node-request.git package/lean/node-request
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus
+
+# Add OpenClash
+git clone -b master https://github.com/vernesong/OpenClash package/openclash
